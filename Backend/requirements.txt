@@ -1,0 +1,28 @@
+# =============================================================================
+# requirements.txt — Python Dependencies
+# =============================================================================
+# Install with: pip install -r requirements.txt
+
+# ── API Framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.0          # Web framework for building the REST API
+uvicorn[standard]==0.30.6 # ASGI server to run FastAPI
+
+# ── AI / LLM ─────────────────────────────────────────────────────────────────
+groq==0.9.0              # Groq LLM API (answer generation)
+# sentence-transformers==3.0.1 # Local embedding model for Pinecone queries
+fastembed
+
+# ── Vector Database ───────────────────────────────────────────────────────────
+pinecone==5.0.1           # Pinecone vector database client
+
+# ── PDF Processing ────────────────────────────────────────────────────────────
+pdfplumber==0.11.4        # Extracts text from PDF files (better than PyPDF2 for layout)
+
+# ── Data Validation ───────────────────────────────────────────────────────────
+pydantic==2.9.2           # Request/response schema validation
+
+# ── Environment Variables ─────────────────────────────────────────────────────
+python-dotenv==1.0.1      # Loads .env file into environment variables
+
+
+httpx==0.27.0
