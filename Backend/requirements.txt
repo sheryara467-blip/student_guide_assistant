@@ -19,7 +19,7 @@ pinecone==5.0.1           # Pinecone vector database client
 pdfplumber==0.11.4        # Extracts text from PDF files (better than PyPDF2 for layout)
 
 # ── Data Validation ───────────────────────────────────────────────────────────
-pydantic==2.9.2           # Request/response schema validation
+pydantic==2.10.6          # Request/response schema validation
 
 # ── Environment Variables ─────────────────────────────────────────────────────
 python-dotenv==1.0.1      # Loads .env file into environment variables
