@@ -26,3 +26,5 @@ python-dotenv     # Loads .env file into environment variables
 
 
 httpx
+
+scikit-learn
